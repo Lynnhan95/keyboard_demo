@@ -10,7 +10,31 @@ var keys = {
 var hash = {
     'q':'www.qq.com',
     'w':'www.weibo.com',
-    'e':'www.explainshell.com'
+    'e':'www.explainshell.com',
+    'r':'www.reddit.com',
+    't':'www.taobao.com',
+    'y':'www.youtube.com',
+    'u':'',
+    'i':'',
+    'o':'',
+    'p':'www.pinterest.com',
+    'a':'www.amazon.com',
+    's':'',
+    'd':'',
+    'f':'',
+    'g':'www.google.com',
+    'h':'',
+    'j':'',
+    'k':'',
+    'l':'',
+    'z':'',
+    'x':'',
+    'c':'',
+    'v':'',
+    'b':'www.baidu.com',
+    'n':'',
+    'm':'www.mcdonalds.com'
+
 }
 //封装localStorage函数
 function getFromLocal(name){
