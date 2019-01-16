@@ -1,10 +1,27 @@
+@font-face{
+    font-family: keyboard;
+    src:url('../font/keyboard.otf') format('opentype');
+}
+body{
+    background:#fff url(../asset/wall.jpg) no-repeat;
+    background-size: cover;
+}
 kbd{
-    width: 4em;
-    height: 4em;
+    width: 69px;
+    height: 69px;
     display: inline-block;
-    border:1px solid red;
+    line-height: 69px;
+    font-family: keyboard;
+    border-radius:8px;
+    background-color:#000;
+    color:#fff;
+    text-align: center;
+    font-size: 24px;
+    margin:0 12px 12px 0;
+    box-shadow:2px 2px 2px rgba(0, 0, 0, 0.5);
     text-transform: uppercase;
     position:relative;
+    cursor:pointer;
 }
 kbd > button{
     position: absolute;
@@ -15,6 +32,13 @@ kbd > button{
 kbd:hover > button{
     display:inline-block;
 }
+kbd > img{
+    width:16px;
+    height: 16px;
+    position: absolute;
+    top:2px;
+    left:4px;
+}
 #wrapper > div:nth-child(2){
     margin-left: 2em;
 }
@@ -23,8 +47,14 @@ kbd:hover > button{
 }
 #wrapper{
     display: inline-block;
-    margin:0 auto;
+    background:rgba(255,255,255,0.25);
+    border-radius:8px;
+    padding:20px 55px;
 }
 main{
     text-align: center;
+    /* display:flex;
+    justify-content: center;
+    justify-self: center; */
+    margin:25vh auto;
 }
